@@ -1,0 +1,59 @@
+#menu-icon{
+   display: block;
+   
+}
+.navbar{
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 100%;
+    top: 100%;
+    left: 0;
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem  rgba(0, 0, 0, .2);
+    display: none;
+
+}
+.navbar.active{
+    display: block;
+   
+}
+.navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+   text-align:  center;
+}
+.home{
+    flex-direction: column;
+    text-align: center;
+}
+.home img{
+    margin-top: -10rem;
+}
+.about{
+    flex-direction: column;
+    text-align: center;
+}
+.services{
+flex-direction: column;
+}
+.portfolio-container{
+    flex-direction: column;
+    gap: 2rem;
+}
+.portfolio-box .portfolio-layer{
+    flex-direction: column;
+}
+.contact{
+    flex-direction: column;
+}
+.about-content h2{
+    text-align: center;
+}
+.services #con1{
+   flex-direction: column;
+   }
+  
+  .services #con2{
+   flex-direction: column;
+  }
