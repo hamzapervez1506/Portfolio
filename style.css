@@ -135,7 +135,9 @@ transition: .5s ease;
   background-color: var(--secondary-color);
  }
  .about-img img{
-  width: 35vw;
+  width: 29vw;
+  height: 37vw;
+  margin-bottom: 110px;
  }
  .heading{
   text-align: center;
