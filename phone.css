@@ -67,6 +67,10 @@ flex-direction: column;
 .services #con1{
    flex-direction: column;
    }
+.footer{
+    display: flex;
+    justify-content: center;
+   }
   
   .services #con2{
    flex-direction: column;
