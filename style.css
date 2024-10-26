@@ -121,6 +121,7 @@ header{
   color: var(--secondary-color);
 letter-spacing: .1rem;
 font-weight: 600;
+pointer-events: auto; /* Ensure buttons are clickable */
 transition: .5s ease;
 
  }
